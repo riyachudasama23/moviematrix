@@ -19,7 +19,7 @@ const router = createBrowserRouter([
         element: <ExplorePage/>
       },
       {
-        path: "details",
+        path: ":explore/:id",
         element: <DetailsPage/>
       },
       {
